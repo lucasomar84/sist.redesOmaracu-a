@@ -1,0 +1,36 @@
+Alumno:Acuña Lucas
+
+
+							¿QUE ES CI/CD?
+
+Permite a los equipos de desarrollo de sofware centrarse en cumplir los requisitos comerciales, la calidad del codigo y la seguridad.
+
+
+
+							¿QUE BENEFICIOS TENEMOS AL USARLO?
+
+
+Los beneficios que tenemos al usarlo son:Es una configuracion de  software en el que un equipo especial asignado dentro de una economia  realiza para que se puedan hacer las
+pruebas del producto del software que estan construyendo
+
+1.Cambios de codigo mas pequeños 
+2.Aislar defectos
+3.El tiempo medio de resolucion es mas rapido(MTTR)
+4.Mas fiabilidad de las pruebas
+5.Tasa de liberacion mas rapida
+6.Menores atrasos
+7.Sastifaccion del cliente
+8.Aumentar la transparencia y la responsabilidad del equipo
+9.Reducir costos
+10.Mantenimiento y actualizaciones mas sencillos
+
+						¿QUE ES UN AMBIENTE DE PRODUCCION,STAGING,PRUEBAS?
+
+Ambiente de produccion:Es el lugar donde operara el sistema,se hace uso del servicio por parte de los usuarios finales.
+Se realizan los ajustes a los elementos necesarios para mantener la disponibilidad del servicio y se programan los respaldos
+del ambiente.
+
+Ambiente de staging:El ambiente de preparación es donde validamos las cosas  que no conocemos sobre nuestro sistema
+
+Ambiente de prueba:Es una configuracion de software en el equipo especial asignado dentro de la compañia realiza para que se puedan hacer las pruebas del producto del
+sofware que se esta construyendo.
