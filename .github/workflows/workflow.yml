@@ -6,7 +6,9 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Run a multi-line script
         run: echo "hello world"
+      - name: console
+        run: ls /etc
