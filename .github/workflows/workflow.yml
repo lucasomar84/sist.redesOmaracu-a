@@ -28,9 +28,17 @@ jobs:
         run: mv lucasLinux.txt /home/runner/work/sist.redesOmaracu-a/lucas
       - name: tail
         run: tail /home/runner/work/sist.redesOmaracu-a/lucas
-      - name: cd
-        run: cd /home/runner/work/sist.redesOmaracu-a/lucas/alumno
-
+      - name: mkdir alumnoinf
+        run: mkdir lumnoinf
+      - name: cd alumnoinf
+        run: cd alumnoinf
+      - name: mkdir Notasinf
+        run: mkdir Notasinf
+      - name: cd Notasinf
+        run: cd Notasinf
+      
+      
+       
       
       
       
