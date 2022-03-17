@@ -27,7 +27,7 @@ jobs:
       - name: mv 
         run: mv lucasLinux.txt /home/runner/work/sist.redesOmaracu-a/lucas
       - name: tail
-        run: tail lucas
+        run: tail /home/runner/work/sist.redesOmaracu-a/lucas
       
       
       
