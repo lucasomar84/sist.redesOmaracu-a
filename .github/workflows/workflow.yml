@@ -24,6 +24,8 @@ jobs:
         run: mkdir lucas
       - name: cp
         run: cp lucasLinux.txt /home/runner/work/sist.redesOmaracu-a/lucas
+      - name: mv 
+        run: mv lucasLinux.txt /home/runner/work/sist.redesOmaracu-a/lucas
       
       
       
