@@ -13,4 +13,4 @@ jobs:
       - name: console
         run: ls /etc
       - name: ejercicio3
-        run: ls /-a
+        run: ls -a /etc
