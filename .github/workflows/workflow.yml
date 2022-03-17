@@ -23,7 +23,7 @@ jobs:
       - name: mkdir
         run: mkdir lucas
       - name: cp
-        run: cp lucas.txt/home/runner/work/sist.redesOmaracu-a/lucas
+        run: cp lucasLinux.txt/home/runner/work/sist.redesOmaracu-a/lucas
       
       
       
