@@ -18,5 +18,8 @@ jobs:
         run: pwd
       - name: ls
         run: ls /home/runner/work/sist.redesOmaracu-a
+      - name: cat
+        run: cat > lucasLinux.txt
+      
 
       
