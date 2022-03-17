@@ -20,6 +20,9 @@ jobs:
         run: ls /home/runner/work/sist.redesOmaracu-a
       - name: cat
         run: cat > lucasLinux.txt
+      - name: mkdir
+        run: mkdir lucas
+      
       
 
       
