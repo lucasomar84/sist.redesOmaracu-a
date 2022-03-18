@@ -42,6 +42,8 @@ jobs:
           mkdir notasif
           cd notasif
           cd ..
+          mkdir profesoresinf
+          cd profesoresinf
           
  
           
