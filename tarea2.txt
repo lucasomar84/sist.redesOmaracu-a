@@ -1,0 +1,86 @@
+1)
+a. cp:
+
+Podes hacer copias de archivos individuales o de carpetas enteras 
+parametros:a      Same as -dpR
+        -R,-r   
+        -d,-P   
+        -L      
+        -H      
+        -p      
+        -f     
+        -i      
+        -l,-s   
+        -T      
+        -u      
+b. ls:
+
+ se utiliza para listar archivos o directorios en linux y otros sistemas operativos 
+
+
+-a todos los archivos, incluso los que comienzan con punto (.).
+-A Lista todos los ficheros en los directorios, excepto los que comienzan con punto .
+-F indica tipo: / directorio,
+-h indicará el tamaño en KB, MB, etc.
+-l listado en formato largo (o detallado).
+-S clasifica los contenidos de los directorios por tamaños, con los ficheros más grandes en primer lugar.
+-r invierte el orden de la salida.
+-R Lista recursivamente los subdirectorios encontrados.
+-t ordenar por fecha de última modificación.
+-u ordenar por fecha de último acceso.
+-x presenta los ficheros por columnas.
+-i precede la salida con el número de i-node
+
+
+c. cd:
+cd / 
+cd ..
+permite moverse entre directorios del sistema. Puedes cambiar de directorio especificando la ruta absoluta desde el directorio raíz o relativa desde tu ubicación actual, en linux el directorio actual se indica con el signo .
+
+d. pwd:
+
+
+tiene como tarea imprimir el nombre del directorio de trabajo actual en el cual estamos, esto ayuda a comprender más sobre que estamos trabajando sin cometer errores.
+
+parametros 
+pwd 
+pwd -p
+
+
+e. tail:
+
+le permiten al usuario leer los comandos finales de un archivo. También es útil para monitorear nueva información actualizada en tiempo real en un archivo específico.
+
+tail
+tail -r
+
+f. cat:
+
+Deriva su nombre de la palabra concatenar y te permite crear, fusionar o imprimir archivos en la pantalla de salida estándar o en otro archivo y mucho más
+
+-A, – show-all
+-b Esta opción anula -n.
+-e:
+-E , – show-ends: Muestra » $ » al final de cada línea.
+-n , –number:
+-s , –squeeze-blank: 
+-t:
+–help: Muestre la opciones de ayuda del comando cat
+–versión: Sirve para verificar información de la versión de la herramienta
+
+
+
+g. mv:
+
+ Es usado para mover o renombrar archivos o directorios del sistema de archivos. El archivo original es borrado y se crea un nuevo archivo con el mismo contenido, el nombre puede ser diferente o puede ser el mismo.
+
+parámetro:
+
+mv /../..
+
+
+2- ya lo hice 
+
+3-ya lo hice
+
+4-ya lo hice 
