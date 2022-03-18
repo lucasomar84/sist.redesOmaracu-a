@@ -29,10 +29,18 @@ jobs:
       - name: tail
         run: tail /home/runner/work/sist.redesOmaracu-a/lucas
         
-      - name: mkdir alumnoinf
-        run: mkdir lumnoinf
-      - name: cd alumnoinf
-        run: cd /home/runner/work/sist.redesOmaracu-a/lucas/alumnoinf
+      - name: mkdir home
+        run: | 
+          mkdir home
+          cd home
+          mkdir alumno
+          cd alumno
+          mkdir informatica
+          cd informatica
+          mkadir notasinf
+          cd notasinf
+
+
 
       
        
