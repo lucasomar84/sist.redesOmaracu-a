@@ -31,14 +31,15 @@ jobs:
         
       - name: mkdir home
         run: | 
-          mkdir home
           cd home
           mkdir alumno
           cd alumno
           mkdir informatica
           cd informatica
-          mkadir notasinf
-          cd notasinf
+          mkdir alumnosinf
+          cd alumnosinf
+          
+ 
 
 
 
