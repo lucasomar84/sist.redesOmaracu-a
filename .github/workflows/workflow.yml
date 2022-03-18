@@ -41,6 +41,8 @@ jobs:
           cd alumnosinf
           mkdir notasif
           cd notasif
+          cd ..
+          
  
           
           
