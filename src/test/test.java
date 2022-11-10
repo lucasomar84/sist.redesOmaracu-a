@@ -50,6 +50,11 @@ public class test {
         assertNotEquals(calculator.dividir(11, 3), 5);
     }
 
+    @Test(expected = ArithmeticException.class)
+    public void div2TestException() {
+        calculator.dividir(1,0);
+    }
+
     @Test
     public void raizCuadraticaTestok(){
         assertEquals(calculator.raizCuadratica(1,2,-8),-4,2);
