@@ -11,12 +11,15 @@ public class test {
     calculadora calculator = new calculadora();
 
     @Test
-    public void sumaTest() {
+    public void sumaTestOk() {
         assertEquals(calculator.sumar(1, 1), 2);
-        assertNotEquals(calculator.sumar(1, 1), 5);
-
     }
 
+    @Test
+    public void sumaTestFail() {
+        assertNotEquals(calculator.sumar(1, 1), 5);
+    }
+    
     @Test
     public void restarTest() {
         assertEquals(calculator.restar(320, 319), 1);
