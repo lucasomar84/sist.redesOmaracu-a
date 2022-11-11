@@ -20,8 +20,12 @@ public class calculadora {
 
     }
 
-    public double raizCuadratica(int a, int b, int c) {
-        return (-b + -Math.sqrt((b * b) - (4 * a * c))) / 2 * a;
+    public double[] raizCuadratica( double a, double  b, double c) {
+        double x1 = (-b + Math.sqrt((b * b) - (4 * a * c))) / 2 * a;
+        double x2 =  (-b - Math.sqrt((b * b) - (4 * a * c))) / 2 * a;
+        double[] results = {x1, x2};
+        return results;
     }
 
 }
+

@@ -1,10 +1,13 @@
 package test;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
 
 import org.junit.Test;
 
 import calculadora.calculadora;
+
+import java.util.Arrays;
+
+import static org.junit.Assert.*;
+
 public class test {
     calculadora calculator = new calculadora();
 
@@ -56,13 +59,10 @@ public class test {
     }
 
     @Test
-    public void raizCuadraticaTestok(){
-        assertEquals(calculator.raizCuadratica(1,2,-8),-4,2);
-    }
-
-    @Test
-    public void raizCuadraticaTestfail(){
-        assertNotEquals(calculator.raizCuadratica(2,4,-16),-2,1);
+    public void raizCuadraticaTest(){
+        double[] result = calculator.raizCuadratica(4.0, 4.0, -3.0);
+        double [] Expectedresults  = {-0.5, 1.5};
+        assertFalse(Arrays.equals(Expectedresults, result));
     }
 
 }
