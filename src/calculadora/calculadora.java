@@ -20,12 +20,26 @@ public class calculadora {
 
     }
 
-    public double[] raizCuadratica( double a, double  b, double c) {
-        double x1 = (-b + Math.sqrt((b * b) - (4 * a * c))) / 2 * a;
-        double x2 =  (-b - Math.sqrt((b * b) - (4 * a * c))) / 2 * a;
-        double[] results = {x1, x2};
-        return results;
-    }
+   public static double[] raizCuadratica(double a, double b, double c){
 
+        double b2 = b*b;
+        double dentroraiz = b2 - (4*a*c);
+        double raiz = (double) Math.sqrt(dentroraiz);
+
+        double cuenta = (double )raiz;
+        double veri =cuenta;
+            if (veri % 2 ==0)
+            {
+                double primero = ((-b + raiz)/2*a);
+                double segundo = ((-b - raiz)/2*a);
+
+                double  result[] = {primero, segundo};
+
+
+                return  result;
+            }
+     return null;
+
+    }
 }
 
