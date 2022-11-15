@@ -32,14 +32,9 @@ public class calculadora {
             {
                 double primero = ((-b + raiz)/2*a);
                 double segundo = ((-b - raiz)/2*a);
-
                 double  result[] = {primero, segundo};
-
-
                 return  result;
             }
      return null;
-
     }
 }
-
