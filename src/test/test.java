@@ -57,34 +57,25 @@ public class test {
     public void div2TestException() {
         calculator.dividir(1,0);
     }
-
     @Test
-    public void raizCuadraticaTestUno(){
+    public void raizCuadraticaTest(){
         double[] result = calculator.raizCuadratica(4.0, 4.0, -3.0);
         double [] Expectedresults  = {-0.5, 1.5};
-        assertFalse(Arrays.equals(Expectedresults, result));
-    }
-
-
-    @Test
-    public void  raizCuadraticaTestDos(){
-        double result[]= {-1.0, -1.0};
-        assertArrayEquals(calculadora.FuncionCuadratica(1,2,1),result,0);
-    }
-
-
-    @Test
-    public void  raizCuadraticaTestTres(){
-        double result[]= {145, -5};
-        assertArrayEquals(calculadora.FuncionCuadratica(1,4,(-5)),result,2222);
-
-    }
-
-    @Test
-    public void  raizCuadraticaTestCuatro(){
-        double result[]= {1, -5};
-        assertArrayEquals(calculadora.FuncionCuadratica(1,4,(-5)),result,0);
-
+        assertFalse (Arrays.equals(Expectedresults, result));
     }
 
 }
+    @Test
+    public void cuadraticaFail(){
+        double[] result = calculadora.cuadratica(4.0, 4.0, -3.0);
+        double[] expectedResults = {-0.5, 1.5};
+        //assertEquals(result, expectedResults);
+        assertFalse(Arrays.equals(expectedResults, result));
+    }
+    @Test
+    public void cuadraticaFailExceptions(){
+        assertThrows(
+                ArithmeticException.class,
+                () -> calculadora.cuadratica(2, 4,  20)
+        );
+    }
