@@ -24,7 +24,7 @@ public class calculadoraApplication {
 		return numero1 - numero2;
 	}
 
-	@GetMapping("/multi")
+	@GetMapping("/multiplicar")
 	public int multiplicar(@RequestParam(value="a") int numero1,@RequestParam(value = "b")int numero2) {
 		return numero1 * numero2;
 	}
