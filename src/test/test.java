@@ -42,7 +42,6 @@ public class test {
         assertNotEquals(calculator.multiplicar(4, 3), 11);
     }
 
-
     @Test
     public void dividirTestok() {
         assertEquals(calculator.dividir(10, 2), 5);
